@@ -67,7 +67,7 @@
       var c = "rgb(200,0,0)"; // color
 
       var div = d3.select("#hackingvis").append("div");
-      div.append("p").attr("class", "tt").attr("style", "color:"+c).text("Hacking Streak");
+      div.append("p").attr("class", "tt").attr("style", "color:"+c).text("Continuous Coding");
       var txt = strTimeDelta(hacking_stats.total_hacking_time);
       txt += " (total keys = " + hacking_stats.total_hacking_keys + ")";
       div.append("p").attr("class", "td").text(txt);
